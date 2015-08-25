@@ -1,4 +1,4 @@
-FROM sunyi00/centos-allin:1.0.0
+FROM sunyi00/centos-allin:latest
 
 RUN go get code.google.com/p/rsc/qr \
         github.com/go-sql-driver/mysql \
